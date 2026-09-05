@@ -3,6 +3,6 @@ project(allan C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(allan main.c
-        "ex 001 (media ponderada).cpp"
+add_executable(allan
+        "Exercicios 04.09/ex 001 (media ponderada).cpp"
         .vscode/ex002.h)
