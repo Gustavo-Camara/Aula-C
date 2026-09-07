@@ -6,17 +6,17 @@ int main()
     float media;
 
     printf("Primeira nota:");
-    scanf("%d",&n1);
+    scanf("%f",&n1);
     printf("Peso 1:");
-    scanf("%d",&p1);
+    scanf("%f",&p1);
     printf("Segunda nota:");
-    scanf("%d",&n2);
+    scanf("%f",&n2);
     printf("Peso 2:",&p2);
-    scanf("%d",&p2);
+    scanf("%f",&p2);
     printf("Terceira nota:");
-    scanf("%d",&n3);
+    scanf("%f",&n3);
     printf("Peso 3:");
-    scanf("%d",&p3);
+    scanf("%",&p3);
     media = (n1 * p1 + n2 * p2 + n3 * p3) / (p1 + p2 + p3);
 
     printf("\n Media ponderada: %.2f",media);
